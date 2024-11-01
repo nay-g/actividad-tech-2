@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laboratorio de Programación</title>
+    <!-- Vincula el archivo CSS externo -->
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+    <h1>Laboratorio de Programación</h1>
+
+    <!-- Ejercicio 1: Verificación de Calificaciones -->
+    <section>
+        <h2>Verificación de Calificaciones</h2>
+        <label for="calificacion">Ingresa tu calificación (entre 0 y 100):</label>
+        <input type="number" id="calificacion" min="0" max="100">
+        <button onclick="verificarCalificacion()">Verificar</button>
+        <p id="resultado1"></p>
+    </section>
+
+    <!-- Ejercicio 2: Determinación de Número Par o Impar -->
+    <section>
+        <h2>Determinación de Número Par o Impar</h2>
+        <label for="numero">Ingresa un número:</label>
+        <input type="number" id="numero">
+        <button onclick="determinarParImpar()">Determinar</button>
+        <p id="resultado2"></p>
+    </section>
+
+    <!-- Ejercicio 3: Evaluación de Descuentos -->
+    <section>
+        <h2>Evaluación de Descuentos</h2>
+        <label for="monto">Ingresa el monto total de tu compra:</label>
+        <input type="number" id="monto" min="0">
+        <button onclick="evaluarDescuento()">Calcular</button>
+        <p id="resultado3"></p>
+    </section>
+
+    <!-- Ejercicio 4: Juego de Adivinanza de Números -->
+    <section>
+        <h2>Juego de Adivinanza de Números</h2>
+        <label for="adivinanza">Adivina el número (entre 1 y 10):</label>
+        <input type="number" id="adivinanza" min="1" max="10">
+        <button onclick="jugar()">Intentar</button>
+        <p id="resultado4"></p>
+    </section>
+
+    <!-- Vincula el archivo JavaScript externo -->
+    <script src="script.js"></script>
+
+</body>
+</html>
